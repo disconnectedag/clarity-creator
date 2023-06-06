@@ -47,11 +47,13 @@ const UserForm = () => {
           </div>
 
           <div className="pt-4">
-            <input
-              className="form-input rounded-md w-full hover:bg-amber-300 focus:outline-none focus:ring-2 focus:ring-offset-2 "
-              type="submit"
-              value="Start"
-            />
+            <Link href={'/landing'}>
+              <input
+                className="form-input rounded-md w-full hover:bg-amber-300 focus:outline-none focus:ring-2 focus:ring-offset-2 "
+                type="submit"
+                value="Start"
+              />
+            </Link>
           </div>
         </form>
       </div>

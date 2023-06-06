@@ -1,4 +1,5 @@
 import React from 'react';
+import styles from './GoalForm.module.css';
 
 const GoalForm = () => {
   return (

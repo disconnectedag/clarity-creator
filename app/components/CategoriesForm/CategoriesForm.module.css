@@ -1,0 +1,16 @@
+.wrapper {
+  align-items: center;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  gap: 10px;
+}
+.select-container {
+  display: flex;
+  gap: 10px;
+}
+.other-container {
+  display: flex;
+  gap: 10px;
+}
